@@ -1,0 +1,490 @@
+/*!
+ * SunShineCSS (v 0.1.0)
+ * Created By --Saeed Malik--
+ * Copyright 2018 
+ * FREE TO USE
+ */
+
+/*!
+ * Box-Sizing(Box Model)
+ * Border-Box(default): content + padding + border
+ * s-box-c: content
+ * s-box-p: content + padding
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.s-box-c {
+    box-sizing: content-box;
+}
+.s-box-p {
+    box-sizing: padding-box;
+}
+
+
+
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.15;
+    font-size: 15px !important;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+
+
+.s-con {
+    margin-top: .50rem;
+}
+.spx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.spy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+}
+
+
+
+.ssl {
+    margin-left: 0 !important;
+}
+.ssr {
+    margin-right: 0 !important;
+}
+.sst {
+    margin-top: 0 !important;
+}
+.ssb {
+    margin-bottom: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.s-bgdark {
+    background: rgba(8, 8, 8, 0.959) !important;
+}
+.s-bggrey {
+    background: #B7B0B0 !important;
+}
+.s-bgblue {
+    background: #2882DB !important;
+}
+.s-bgpurple {
+    background: #6526DD !important;
+}
+
+
+
+
+
+.s-fwhite {
+    color: #FFF
+}
+
+.s-fdmuted {
+    color: #939393
+}
+.s-flmuted {
+    color: #636363
+}
+
+
+.s-fdorange {
+    color: #F24800
+}
+.s-fdpurple {
+    color: #B257A6
+}
+.s-fdgreen {
+    color: #59B22C
+}
+.s-fdyellow {
+    color: #D8D82B
+}
+.s-fdblue {
+    color: #2473F2
+}
+.s-fdred {
+    color: #BF2626
+}
+.s-fdwhite {
+    color: #EDEDED
+}
+.s-fddark {
+    color: #000000
+}
+
+
+
+
+.s-florange {
+    color: #F24800
+}
+.s-flpurple {
+    color: #B257A6
+}
+.s-flgreen {
+    color: #4DB21A
+}
+.s-flyellow {
+    color: #E3D31E
+}
+.s-flblue {
+    color: #2473F2
+}
+.s-flred {
+    color: #CC2828
+}
+.s-fldark {
+    color: rgba(8, 8, 8, 0.959)
+}
+
+
+
+.s-fu {
+    text-transform: uppercase;
+}
+
+.s-fl {
+    text-transform: lowercase;
+}
+
+.s-fb {
+    font-weight: bold;
+}
+
+.s-fmain {
+    font-size: 1rem;
+}
+.s-fhead {
+    font-size: 3rem;
+    line-height: 1.35;
+}
+.s-ftitle {
+    font-size: 2rem;
+    line-height: 1.25;
+    margin-bottom: .25rem !important;
+}
+.s-fsub {
+    font-size: 1.5rem;
+    margin-bottom: .75rem !important;
+}
+.s-fsub1 {
+    font-size: 1.25rem;
+    margin-bottom: .75rem !important;
+}
+.s-fbod {
+    font-size: .85rem
+}
+.s-flight {
+    font-weight: 400
+}
+.s-fheavy {
+    font-weight: 700
+}
+p {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+
+.s-bflat {
+    background-color: transparent;
+}
+.s-braised {
+    box-shadow: 0rem 0rem .60rem -.05rem #444444;
+}
+.s-braisedtop {
+    box-shadow: 0rem .10rem .50rem -.05rem #444444;
+}
+.s-boutline {
+    background-color: transparent;
+    border: 1px solid ;
+}
+button {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: .15rem;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.s-bround {
+    border-radius: .25rem
+}
+.s-brounde {
+    border-radius: .50rem
+}
+.s-bpill {
+    border-radius: .75rem
+}
+button:hover, button:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+
+
+.s-cardcon {
+    margin-top: .50rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.s-card {
+    background: #fff;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: .50rem;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.s-cardround {
+    border-radius: 15rem;
+    padding: 3rem !important;
+}
+.s-cardroundleft {
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+    padding: 3rem !important;
+}
+.s-cardroundright {
+    border-top-right-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+    text-align: right;
+    padding: 3rem !important;
+}
+.s-cardflat {
+    background: #fff;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: .50rem;
+    position: relative;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.s-cardsh1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.s-cardsh2 {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.s-cardsh3 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.s-cardsh4 {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.s-cardsh5 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.s-card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.s-cardsub {
+    font-size: 1.55rem;
+    margin-bottom: .15rem !important;
+}
+.s-fcenter {
+    text-align: center
+}
+.s-fright {
+    text-align: right
+}
+
+.s-cardacright {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: .25rem
+}
+.s-cardac {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.s-cardac-nopad {
+    display: flex;
+    flex-direction: row;
+    padding: 0rem
+}
+
+.s-cardimage {
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+.s-cardspread {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.s-spready {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around !important;
+}
+.s-cardhover {
+    display: none
+}
+.s-card:hover .s-cardhover {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 98%;
+    position: absolute;
+}
+.s-cardspreadact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.s-w10 {
+    width: 10%
+}
+.s-w20 {
+    width: 20%
+}
+.s-w25 {
+    width: 25%
+}
+.s-w30 {
+    width: 30%
+}
+.s-w33 {
+    width: 33.3333%
+}
+.s-w40 {
+    width: 40%
+}
+.s-w50 {
+    width: 50%
+}
+.s-w60 {
+    width: 60%
+}
+.s-w70 {
+    width: 70%
+}
+.s-w80 {
+    width: 80%
+}
+.s-w90 {
+    width: 90%
+}
+.s-w100 {
+    width: 100%
+}
+
+
+.s-mw10 {
+    max-width: 10%
+}
+.s-mw20 {
+    max-width: 20%
+}
+.s-mw25 {
+    max-width: 25%
+}
+.s-mw30 {
+    max-width: 30%
+}
+.s-mw33 {
+    max-width: 33.3333%
+}
+.s-mw40 {
+    max-width: 40%
+}
+.s-mw50 {
+    max-width: 50%
+}
+.s-mw60 {
+    max-width: 60%
+}
+.s-mw70 {
+    max-width: 70%
+}
+.s-mw80 {
+    max-width: 80%
+}
+.s-mw90 {
+    max-width: 90%
+}
+.s-mw100 {
+    max-width: 100%
+}
+
+.s-h50 {
+    height: 50%;
+}
+
+
+
+
+.s-chip {
+        display: inline-block;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        margin: .15rem;
+        border: 1px solid transparent;
+        border-radius: .75rem;
+        padding: .15rem .30rem;
+  
+}
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light:hover {
+    color: #59B22C
+}
+
+
+input {
+    border: 1px solid transparent;
+    border-bottom: .3rem solid #59B22C;
+    padding: .5rem;
+    background: rgb(223, 220, 220)
+}
+
+
